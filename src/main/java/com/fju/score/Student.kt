@@ -12,5 +12,5 @@ class Student (var name:String,var english:Int,var math:Int){
 
 fun main(){
     val stu = Student("Jack",50,80)
-    println(stu.math)
+    stu.print()
 }
